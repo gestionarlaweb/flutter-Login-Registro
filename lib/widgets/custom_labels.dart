@@ -18,16 +18,11 @@ class CustomLabels extends StatelessWidget {
     return Container(
         child: Column(
       children: <Widget>[
-        GestureDetector(
-          child: Text(this.titulo,
-              style: TextStyle(
-                  color: Colors.black54,
-                  fontSize: 15,
-                  fontWeight: FontWeight.w300)),
-          onTap: () {
-            Navigator.pushReplacementNamed(context, this.ruta);
-          },
-        ),
+        Text('¿No tienes cuenta?',
+            style: TextStyle(
+                color: Colors.black54,
+                fontSize: 15,
+                fontWeight: FontWeight.w300)),
         SizedBox(height: 10),
         GestureDetector(
           child: Text(this.subTitulo,

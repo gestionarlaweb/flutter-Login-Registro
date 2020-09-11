@@ -18,7 +18,7 @@ class CustomLabels extends StatelessWidget {
     return Container(
         child: Column(
       children: <Widget>[
-        Text('¿No tienes cuenta?',
+        Text(this.titulo,
             style: TextStyle(
                 color: Colors.black54,
                 fontSize: 15,
